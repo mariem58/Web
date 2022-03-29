@@ -2,29 +2,25 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Home Page</title>
-        <link rel="stylesheet" href="CSS_files/HomePage.css">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="CSS_files/login.css">
     </head>
     <body>
-        <div class="background">
+        <div class="login">
+            <h1>Login</h1>
+            <form action="#" method="post">
+                <p>User Name</p>
+                <input type="text" name="username" placeholder="user name" required>
 
-        </div>
-        <div class="nav">
-            <ul>
-                <li><a href="#">home page</a></li>
-                <li><a href="#">add students</a></li>
-                <li><a href="#">update & delete</a></li>
-                <li><a href="#">search</a></li>
-                <li><a href="#">show all students</a></li>
-                <li><a href="#">student's department registration</a></li>
-            </ul>
+                <p>Email</p>
+                <input type="email" name="email" placeholder="Email" required>
+
+                <p>Password</p>
+                <input type="password" name="password" placeholder="Password" minlength="15" maxlength="30">
+
+                <button type="submit">Login</button>
+            </form>
         </div>
 
-        <div class="main">
-            <h1>Welcome</h1>
-            <div>
-                <button type="button"><span></span>Search</button>
-            </div>
-        </div>
     </body>
 </html>
